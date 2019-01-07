@@ -95,7 +95,7 @@ end
       song = list_of_songs[input+2]
       puts "Playing #{song.name} by #{song.artist.name}"
     unless
-      song == nil
+      song = not_found
     end
   end
 end
